@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding:0px;
+    background-color:rgb(147, 147, 229);
+    border-radius: 15px;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-image: URL("image1.jpg");
+    background-size: 100% 100px;
+    border-bottom: 4px black solid;
+    border-radius:0px;
+}
+.edit{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+.edit::after{
+    content:"--";
+    color: black;
+}
+.edit::before{
+    content:"--";
+    color: black;
+}
+.container{
+    display: inline-flex;
+    flex-wrap: row wrap;
+    width: 100%;
+}
+.child{
+    background-color: rgb(58, 58, 102);
+    padding:15px;
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+    height:300px;
+    flex-basis: 25%;
+
+}
+.child p{
+    background-color: rgb(58, 58,102);
+}
+.am{
+    background-color:rgb(58, 58,102);
+    font-size:30px ;
+    text-align:left;
+}
+a{
+    text-decoration: none;
+    background-color:rgb(58, 58,102) ;
+    color: rgb(212, 195, 182);
+
+}
+a:hover{
+    color: red;
+    font-size: 150%;
+}
+.child_c2{
+    background-color: rgb(58, 58, 102);
+    padding:15px;
+    text-align: left;
+    margin: 10px;
+    font-size: 50px;
+    height:80px;
+    flex-basis: 30%
+}
+.child_a{
+  background-color:rgb(147, 147, 229) ;
+}
+.child_c{
+    background-color:rgb(147, 147, 229) ;
+}
+hr{
+    border: 3px black solid;
+    background-color: black;
+    border-radius:0px;
+}
+footer a{
+    color: black;
+    font-size: 26px;
+    background-color:rgb(47, 61, 74);
+}
+footer div{
+    text-align: right;
+    background-image: url("footer.jpg");
+    border-radius:0px;
+    height: 40px;
+    border-bottom: 2px solid;
+    
+}
